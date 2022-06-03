@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.banner{
+  padding-top: 100px;
+  width:100%;
+  height:600px;
+  background-image: 
+ linear-gradient(to bottom, rgba(217,167,199,0.6), 
+rgba(255,252,220,0.6)),
+url("https://sucai.sioe.cn/uploadfile/201002/22/59172412638.jpg");
+}
+
+.quote{
+  width: 50%;
+  margin: 0 auto;
+  font-size: 50px;
+  color: grey;
+  padding-left: 20px;
+  border-left: 10px solid #fff;
+}

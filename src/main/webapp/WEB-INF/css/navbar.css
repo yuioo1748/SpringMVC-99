@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.navbar .navbar-nav .nav-link:hover {
+	background-color: #fff;
+	color: #FFACB7;
+}
+
+.navbar .navbar-nav .nav-link {
+	padding: lem;
+	transition: all .5s;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+
+
+.navbar-text {
+	font-size: 1.2rem;
+}
+
+.navbar-brand {
+	font-size: 1.5em;
+}
