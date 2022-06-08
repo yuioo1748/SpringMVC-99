@@ -20,15 +20,25 @@ public class ProductController {
 	@Autowired
 	private ProductDao productDao;
 
-	// "管理者show proudct"頁面標籤
+	// "管理者add proudct"頁面標籤
 	@RequestMapping("/add-product")
-	public String addProduct(Model m) {
+	public String addProduct_title(Model m) {
 		m.addAttribute("title", "Add Product");
 		return "add_product";
 
 	}
+	
+	// "使用者show proudct"頁面標籤
+		@RequestMapping("/product")
+		public String Product_title(Model m) {
+			m.addAttribute("title", "Product");
+			
+			getProductInfo(m);
+			return "product";
 
-	//把productdata 丟到畫面
+		}
+
+	//"管理者show proudct"頁面標籤
 	@RequestMapping("/show-product")
 	public String showProduct(Model m) {
 		m.addAttribute("title", "Show Product");
@@ -37,11 +47,12 @@ public class ProductController {
 		return "show_product";
 
 	}
-	// alt+shift+m
+	// 把productdata 丟到畫面 (alt+shift+m)
 	private void getProductInfo(Model m) {
 		List<Product> products=productDao.getProducts();
 		m.addAttribute("products",products);
 	}
+	
 	//刪除
 	@RequestMapping("/delete/{id}")
 	public RedirectView deleteProduct(@PathVariable("id")int id,HttpServletRequest request) {

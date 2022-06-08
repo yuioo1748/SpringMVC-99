@@ -1,0 +1,8 @@
+@charset "UTF-8";
+.container 
+.d-grid 
+.btn  {
+    border-radius: 27px;
+    color: #fff;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.container 
+.card-group
+.card {
+    border-radius: 10px;
+}
+.container 
+.card-group
+.card 
+.card-img-top
+{
+    border-radius: 10px;
+}

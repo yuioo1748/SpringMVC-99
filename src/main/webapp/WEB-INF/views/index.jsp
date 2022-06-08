@@ -53,7 +53,7 @@
 	<style type="text/css">.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0;   width:100%; height: 100%; }
 	</style>
 	<div class="container">
-		<div class="embed-container embedvideo"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/QLR3Leoa7Os?rel=0" width="560"></iframe></div>
+		<div class="embed-container embedvideo"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/i6d3K6ln-d4?rel=0" width="560"></iframe></div>
 	</div>
 	<br><br>
 	<!-- 最新商品 -->
@@ -61,8 +61,8 @@
 	<h3 class="text-center mb-3 fw-bold">NEW ITEM</h3>
 	<br><br>
 	<div class="container">
-		<div class="row row-cols-1 row-cols-md-3 g-4">
-			<c:forEach items="${product}" var="p" >
+		<div class="row row-cols-1 row-cols-md-4 g-5">
+			<c:forEach items="${products}" var="p" begin="0" end="11">
 					<div class="card-group">
 						<div class="card">
 							<img src="${p.pic}" class="card-img-top" alt="...">
@@ -74,6 +74,10 @@
 						</div>
 					</div>	
 			</c:forEach>
+		</div>
+		<br>
+		<div class="d-grid gap-2 col-3 mx-auto">
+			<a href="${pageContext.request.contextPath}/product" class="btn btn-info btn-lg" style=" border-radius: 27px; color: #fff; font-size: 1.5rem;">更多商品</a>
 		</div>
 	</div>	
 <%@include file="include/footer.jsp"%>

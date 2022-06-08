@@ -27,7 +27,7 @@ public class IndexController {
 
 	// alt+shift+m
 	private void getProductInfo(Model m) {
-		List<Product> product = productDao.getProducts();
-		m.addAttribute("product", product);
+		List<Product> products = productDao.getProducts();
+		m.addAttribute("products", products);
 	}
 }

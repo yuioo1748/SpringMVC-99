@@ -8,11 +8,15 @@
 <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- CSS -->
 <link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/index_card.css">
+<link rel="stylesheet" href="css/index_item.css">
+
 <!-- JS -->
 
 <!-- JSTL -->
 <%@page isELIgnored="false"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <!-- https://cdnjs.com/libraries/font-awesome-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- 首頁頁面標籤名稱 -->
