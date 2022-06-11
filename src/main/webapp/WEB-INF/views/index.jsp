@@ -50,10 +50,10 @@
 	<!-- 最新影片 -->
 	<h5 class="text-center mb-3 fw-bold">最新影片</h5>
 	<h3 class="text-center mb-3 fw-bold">NEW VIDEO</h3>
-	<style type="text/css">.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0;   width:100%; height: 100%; }
+	<style type="text/css">.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe { position: absolute; top: 50%; left: 50%;  width:950px; height: 600px; transform: translate(-50%,-50%);}
 	</style>
 	<div class="container">
-		<div class="embed-container embedvideo"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube-nocookie.com/embed/i6d3K6ln-d4?rel=0" width="560"></iframe></div>
+		<div class="embed-container embedvideo"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"  src="https://www.youtube-nocookie.com/embed/i6d3K6ln-d4?rel=0"></iframe></div>
 	</div>
 	<br><br>
 	<!-- 最新商品 -->
