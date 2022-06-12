@@ -44,7 +44,7 @@
 			value="com.mysql.cj.jdbc.Driver" />
 		<!-- MySQL 連接位置 -->
 		<property name="url"
-			value="jdbc:mysql://b0f48a6f236c2f:3a97bdec@us-cdbr-east-05.cleardb.net/heroku_dcf3f69d22c91a8?reconnect=true?serverTimezone=UTC" />
+			value="jdbc:mysql://b0f48a6f236c2f:3a97bdec@us-cdbr-east-05.cleardb.net/heroku_dcf3f69d22c91a8?reconnect=true" />
 		<!-- MySQL 帳號 -->
 		<property name="username" value="b0f48a6f236c2f" />
 		<!-- MySQL 密碼 -->
