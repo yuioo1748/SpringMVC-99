@@ -5,6 +5,12 @@
 <body
 	style="background: url(images/pic12.jpg); background-size: 100% 100%; background-attachment: fixed;">
 <%@include file="include/navbar.jsp"%>
+
+
+ 
+
+
+
 <!-- 最新商品 -->
 	<h5 class="text-center mb-3 fw-bold" style="font-size: 2.5rem;">最新商品</h5>
 	<br><br>

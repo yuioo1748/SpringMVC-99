@@ -44,11 +44,11 @@
 			value="com.mysql.cj.jdbc.Driver" />
 		<!-- MySQL 連接位置 -->
 		<property name="url"
-			value="jdbc:mysql://b0f48a6f236c2f:3a97bdec@us-cdbr-east-05.cleardb.net/heroku_dcf3f69d22c91a8?reconnect=true" />
+			value="jdbc:mysql://bae6918b6c3c2e:8f92af29@us-cdbr-east-05.cleardb.net/heroku_e3a671e97a40b84?reconnect=true" />
 		<!-- MySQL 帳號 -->
-		<property name="username" value="b0f48a6f236c2f" />
+		<property name="username" value="bae6918b6c3c2e" />
 		<!-- MySQL 密碼 -->
-		<property name="password" value="3a97bdec" />
+		<property name="password" value="8f92af29" />
 	</bean>
 
 	<!-- factory 工廠類 -->
